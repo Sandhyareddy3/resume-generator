@@ -1,0 +1,138 @@
+#Cvtemplate {
+    padding: 2px;
+}
+
+#Cvtemplate .row {
+    padding: 5px;
+    margin-right: 3px;
+    margin-left: 0px;
+}
+
+.cv-template {
+    font-family: 'Times New Roman', 'Times', 'serif';
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+body {
+    padding: 2px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.cv-form {
+    background-color: gray;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* .colorbtn{
+    color:black;
+} */
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social i {
+    margin-right: 5px;
+}
+
+.footer-follow {
+    margin-bottom: 20px;
+}
+
+.footer-follow p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.follow-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.follow-icons li a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.follow-icons li a:hover {
+    color: #00bfff;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: right;
+    }
+
+    .footer-follow {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo,
+    .footer-social {
+        margin-bottom: 10px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}
